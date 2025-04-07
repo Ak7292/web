@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML5 Features</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .canvas-placeholder {
+      width: 400px;
+      height: 100px;
+      border: 1px solid #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: blue;
+      font-weight: bold;
+    }
+
+    .local-storage-box {
+      border: 1px dashed #aaa;
+      padding: 15px;
+      max-width: 400px;
+      background-color: #f9f9f9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HTML5 FEATURES</h1>
+    <p>Modern Features for a Better Web</p>
+  </header>
+
+  <nav>
+    <a href="#feature1">Video Support</a>
+    <a href="#feature2">Canvas Element</a>
+    <a href="#feature3">Local Storage</a>
+  </nav>
+
+  <main>
+    <section id="feature1">
+      <h2>🎬 Native Video Support</h2>
+      <p>HTML5 introduced the <code>&lt;video&gt;</code> tag, allowing videos to be embedded directly into web pages without the need for third-party plugins like Flash. It supports multiple formats such as MP4, WebM, and Ogg.</p>
+      <video width="400" controls>
+        <source src="sample.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section id="feature2">
+      <h2>🎨 Canvas for Graphics</h2>
+      <p>The <code>&lt;canvas&gt;</code> element allows developers to draw graphics, animations, and games directly in the browser using JavaScript.</p>
+      <div class="canvas-placeholder">
+        Canvas Element Preview Box
+      </div>
+    </section>
+
+    <section id="feature3">
+      <h2>💾 Local Storage</h2>
+      <p>HTML5 provides <strong>localStorage</strong> to store data in the user's browser. It helps retain information even after the page is reloaded. Though it's usually accessed with JavaScript, here's a representation:</p>
+      <div class="local-storage-box">
+        <p><strong>Key:</strong> name</p>
+        <p><strong>Value:</strong> Amrit Singh</p>
+        <p>(This is a static display - actual use requires JavaScript)</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HTML5 Demo by Amrit</p>
+  </footer>
+
+</body>
+</html>
